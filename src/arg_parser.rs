@@ -9,4 +9,7 @@ use crate::utils;
 #[command(author)]
 #[command(version = utils::info())]
 #[command(about = "Get the name of the dominant colour in an image.")]
-pub struct Cli {}
+pub struct Cli {
+    /// The path to the image file.
+    pub input: Utf8PathBuf,
+}

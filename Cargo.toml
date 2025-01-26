@@ -8,6 +8,8 @@ authors = ["Max Gilmour"]
 camino = "1.1.9"
 clap = { version = "4.5.27", features = ["derive", "string", "cargo"] }
 color-eyre = "0.6.3"
+directories = "6.0.0"
+image = "0.25.5"
 reqwest = "0.12.12"
 
 [build-dependencies]

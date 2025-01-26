@@ -11,6 +11,8 @@ fn main() -> eyre::Result<()> {
 
     let args = Cli::parse();
 
+    let data_dir = utils::data_dir_setup()?;
+
     println!("Hello, world!");
     Ok(())
 }

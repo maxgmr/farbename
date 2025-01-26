@@ -1,0 +1,9 @@
+[package]
+name = "farbename"
+version = "0.1.0"
+edition = "2021"
+authors = ["Max Gilmour"]
+
+[dependencies]
+clap = "4.5.27"
+reqwest = "0.12.12"
